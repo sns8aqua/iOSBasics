@@ -27,7 +27,7 @@ func addTwoNumbers(number1: Int?,number2: Int?) -> Int? {
 // ------------------------------------------------------------------
 
 // ARRAYS
-// Find number 7 in string of arrays
+// Find number 7 in Integer of arrays
 func countArrrayOfIntegers(numbers: Int?) -> Bool? {
     // Declare an Array
     var numberOfArray: [Int]?
