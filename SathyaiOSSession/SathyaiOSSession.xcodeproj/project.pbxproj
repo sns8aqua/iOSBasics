@@ -51,6 +51,7 @@
 		BEDC16432788EB2F00EAFF97 /* SathyaiOSSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SathyaiOSSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDC16472788EB2F00EAFF97 /* SathyaiOSSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SathyaiOSSessionUITests.swift; sourceTree = "<group>"; };
 		BEDC16492788EB2F00EAFF97 /* SathyaiOSSessionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SathyaiOSSessionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEDC16582788FB0A00EAFF97 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = Playground/MyPlayground.playground; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		BEDC16172788EB2D00EAFF97 = {
 			isa = PBXGroup;
 			children = (
+				BEDC16572788FAD200EAFF97 /* Playgrounds */,
 				BEDC16222788EB2D00EAFF97 /* SathyaiOSSession */,
 				BEDC163C2788EB2F00EAFF97 /* SathyaiOSSessionTests */,
 				BEDC16462788EB2F00EAFF97 /* SathyaiOSSessionUITests */,
@@ -128,6 +130,14 @@
 				BEDC16492788EB2F00EAFF97 /* SathyaiOSSessionUITestsLaunchTests.swift */,
 			);
 			path = SathyaiOSSessionUITests;
+			sourceTree = "<group>";
+		};
+		BEDC16572788FAD200EAFF97 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				BEDC16582788FB0A00EAFF97 /* MyPlayground.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
