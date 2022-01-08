@@ -11,7 +11,7 @@
 		BEDC16262788EB2D00EAFF97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC16252788EB2D00EAFF97 /* SceneDelegate.swift */; };
 		BEDC16282788EB2D00EAFF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC16272788EB2D00EAFF97 /* ViewController.swift */; };
 		BEDC162B2788EB2D00EAFF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDC16292788EB2D00EAFF97 /* Main.storyboard */; };
-		BEDC162E2788EB2D00EAFF97 /* SathyaiOSSession.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEDC162C2788EB2D00EAFF97 /* SathyaiOSSession.xcdatamodeld */; };
+		BEDC162E2788EB2D00EAFF97 /* MyFirstiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEDC162C2788EB2D00EAFF97 /* MyFirstiOS.xcdatamodeld */; };
 		BEDC16302788EB2F00EAFF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDC162F2788EB2F00EAFF97 /* Assets.xcassets */; };
 		BEDC16332788EB2F00EAFF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDC16312788EB2F00EAFF97 /* LaunchScreen.storyboard */; };
 		BEDC163E2788EB2F00EAFF97 /* SathyaiOSSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDC163D2788EB2F00EAFF97 /* SathyaiOSSessionTests.swift */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BEDC16202788EB2D00EAFF97 /* SathyaiOSSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SathyaiOSSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDC16202788EB2D00EAFF97 /* MyFirstiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDC16232788EB2D00EAFF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEDC16252788EB2D00EAFF97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BEDC16272788EB2D00EAFF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +46,9 @@
 		BEDC162F2788EB2F00EAFF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEDC16322788EB2F00EAFF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEDC16342788EB2F00EAFF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEDC16392788EB2F00EAFF97 /* SathyaiOSSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SathyaiOSSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDC16392788EB2F00EAFF97 /* MyFirstiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDC163D2788EB2F00EAFF97 /* SathyaiOSSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SathyaiOSSessionTests.swift; sourceTree = "<group>"; };
-		BEDC16432788EB2F00EAFF97 /* SathyaiOSSessionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SathyaiOSSessionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDC16432788EB2F00EAFF97 /* MyFirstiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEDC16472788EB2F00EAFF97 /* SathyaiOSSessionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SathyaiOSSessionUITests.swift; sourceTree = "<group>"; };
 		BEDC16492788EB2F00EAFF97 /* SathyaiOSSessionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SathyaiOSSessionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BEDC16582788FB0A00EAFF97 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = Playground/MyPlayground.playground; sourceTree = SOURCE_ROOT; };
@@ -83,9 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				BEDC16572788FAD200EAFF97 /* Playgrounds */,
-				BEDC16222788EB2D00EAFF97 /* SathyaiOSSession */,
-				BEDC163C2788EB2F00EAFF97 /* SathyaiOSSessionTests */,
-				BEDC16462788EB2F00EAFF97 /* SathyaiOSSessionUITests */,
+				BEDC16222788EB2D00EAFF97 /* MyFirstiOSApp */,
+				BEDC163C2788EB2F00EAFF97 /* UnitTests */,
+				BEDC16462788EB2F00EAFF97 /* UITests */,
 				BEDC16212788EB2D00EAFF97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,14 +93,14 @@
 		BEDC16212788EB2D00EAFF97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEDC16202788EB2D00EAFF97 /* SathyaiOSSession.app */,
-				BEDC16392788EB2F00EAFF97 /* SathyaiOSSessionTests.xctest */,
-				BEDC16432788EB2F00EAFF97 /* SathyaiOSSessionUITests.xctest */,
+				BEDC16202788EB2D00EAFF97 /* MyFirstiOSApp.app */,
+				BEDC16392788EB2F00EAFF97 /* MyFirstiOSAppTests.xctest */,
+				BEDC16432788EB2F00EAFF97 /* MyFirstiOSAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEDC16222788EB2D00EAFF97 /* SathyaiOSSession */ = {
+		BEDC16222788EB2D00EAFF97 /* MyFirstiOSApp */ = {
 			isa = PBXGroup;
 			children = (
 				BEDC16232788EB2D00EAFF97 /* AppDelegate.swift */,
@@ -110,26 +110,26 @@
 				BEDC162F2788EB2F00EAFF97 /* Assets.xcassets */,
 				BEDC16312788EB2F00EAFF97 /* LaunchScreen.storyboard */,
 				BEDC16342788EB2F00EAFF97 /* Info.plist */,
-				BEDC162C2788EB2D00EAFF97 /* SathyaiOSSession.xcdatamodeld */,
+				BEDC162C2788EB2D00EAFF97 /* MyFirstiOS.xcdatamodeld */,
 			);
-			path = SathyaiOSSession;
+			path = MyFirstiOSApp;
 			sourceTree = "<group>";
 		};
-		BEDC163C2788EB2F00EAFF97 /* SathyaiOSSessionTests */ = {
+		BEDC163C2788EB2F00EAFF97 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
 				BEDC163D2788EB2F00EAFF97 /* SathyaiOSSessionTests.swift */,
 			);
-			path = SathyaiOSSessionTests;
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
-		BEDC16462788EB2F00EAFF97 /* SathyaiOSSessionUITests */ = {
+		BEDC16462788EB2F00EAFF97 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				BEDC16472788EB2F00EAFF97 /* SathyaiOSSessionUITests.swift */,
 				BEDC16492788EB2F00EAFF97 /* SathyaiOSSessionUITestsLaunchTests.swift */,
 			);
-			path = SathyaiOSSessionUITests;
+			path = UITests;
 			sourceTree = "<group>";
 		};
 		BEDC16572788FAD200EAFF97 /* Playgrounds */ = {
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEDC161F2788EB2D00EAFF97 /* SathyaiOSSession */ = {
+		BEDC161F2788EB2D00EAFF97 /* MyFirstiOSApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEDC164D2788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "SathyaiOSSession" */;
+			buildConfigurationList = BEDC164D2788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "MyFirstiOSApp" */;
 			buildPhases = (
 				BEDC161C2788EB2D00EAFF97 /* Sources */,
 				BEDC161D2788EB2D00EAFF97 /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = SathyaiOSSession;
+			name = MyFirstiOSApp;
 			productName = SathyaiOSSession;
-			productReference = BEDC16202788EB2D00EAFF97 /* SathyaiOSSession.app */;
+			productReference = BEDC16202788EB2D00EAFF97 /* MyFirstiOSApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BEDC16382788EB2F00EAFF97 /* SathyaiOSSessionTests */ = {
+		BEDC16382788EB2F00EAFF97 /* MyFirstiOSAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEDC16502788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "SathyaiOSSessionTests" */;
+			buildConfigurationList = BEDC16502788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "MyFirstiOSAppTests" */;
 			buildPhases = (
 				BEDC16352788EB2F00EAFF97 /* Sources */,
 				BEDC16362788EB2F00EAFF97 /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				BEDC163B2788EB2F00EAFF97 /* PBXTargetDependency */,
 			);
-			name = SathyaiOSSessionTests;
+			name = MyFirstiOSAppTests;
 			productName = SathyaiOSSessionTests;
-			productReference = BEDC16392788EB2F00EAFF97 /* SathyaiOSSessionTests.xctest */;
+			productReference = BEDC16392788EB2F00EAFF97 /* MyFirstiOSAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BEDC16422788EB2F00EAFF97 /* SathyaiOSSessionUITests */ = {
+		BEDC16422788EB2F00EAFF97 /* MyFirstiOSAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEDC16532788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "SathyaiOSSessionUITests" */;
+			buildConfigurationList = BEDC16532788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "MyFirstiOSAppUITests" */;
 			buildPhases = (
 				BEDC163F2788EB2F00EAFF97 /* Sources */,
 				BEDC16402788EB2F00EAFF97 /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				BEDC16452788EB2F00EAFF97 /* PBXTargetDependency */,
 			);
-			name = SathyaiOSSessionUITests;
+			name = MyFirstiOSAppUITests;
 			productName = SathyaiOSSessionUITests;
-			productReference = BEDC16432788EB2F00EAFF97 /* SathyaiOSSessionUITests.xctest */;
+			productReference = BEDC16432788EB2F00EAFF97 /* MyFirstiOSAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEDC161B2788EB2D00EAFF97 /* Build configuration list for PBXProject "SathyaiOSSession" */;
+			buildConfigurationList = BEDC161B2788EB2D00EAFF97 /* Build configuration list for PBXProject "MyFirstiOSApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEDC161F2788EB2D00EAFF97 /* SathyaiOSSession */,
-				BEDC16382788EB2F00EAFF97 /* SathyaiOSSessionTests */,
-				BEDC16422788EB2F00EAFF97 /* SathyaiOSSessionUITests */,
+				BEDC161F2788EB2D00EAFF97 /* MyFirstiOSApp */,
+				BEDC16382788EB2F00EAFF97 /* MyFirstiOSAppTests */,
+				BEDC16422788EB2F00EAFF97 /* MyFirstiOSAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 			files = (
 				BEDC16282788EB2D00EAFF97 /* ViewController.swift in Sources */,
 				BEDC16242788EB2D00EAFF97 /* AppDelegate.swift in Sources */,
-				BEDC162E2788EB2D00EAFF97 /* SathyaiOSSession.xcdatamodeld in Sources */,
+				BEDC162E2788EB2D00EAFF97 /* MyFirstiOS.xcdatamodeld in Sources */,
 				BEDC16262788EB2D00EAFF97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,12 +300,12 @@
 /* Begin PBXTargetDependency section */
 		BEDC163B2788EB2F00EAFF97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEDC161F2788EB2D00EAFF97 /* SathyaiOSSession */;
+			target = BEDC161F2788EB2D00EAFF97 /* MyFirstiOSApp */;
 			targetProxy = BEDC163A2788EB2F00EAFF97 /* PBXContainerItemProxy */;
 		};
 		BEDC16452788EB2F00EAFF97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BEDC161F2788EB2D00EAFF97 /* SathyaiOSSession */;
+			target = BEDC161F2788EB2D00EAFF97 /* MyFirstiOSApp */;
 			targetProxy = BEDC16442788EB2F00EAFF97 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -523,7 +523,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SathyaiOSSession.app/SathyaiOSSession";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstiOSApp.app/MyFirstiOSApp";
 			};
 			name = Debug;
 		};
@@ -548,7 +548,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SathyaiOSSession.app/SathyaiOSSession";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFirstiOSApp.app/MyFirstiOSApp";
 			};
 			name = Release;
 		};
@@ -601,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEDC161B2788EB2D00EAFF97 /* Build configuration list for PBXProject "SathyaiOSSession" */ = {
+		BEDC161B2788EB2D00EAFF97 /* Build configuration list for PBXProject "MyFirstiOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEDC164B2788EB2F00EAFF97 /* Debug */,
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEDC164D2788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "SathyaiOSSession" */ = {
+		BEDC164D2788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "MyFirstiOSApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEDC164E2788EB2F00EAFF97 /* Debug */,
@@ -619,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEDC16502788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "SathyaiOSSessionTests" */ = {
+		BEDC16502788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "MyFirstiOSAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEDC16512788EB2F00EAFF97 /* Debug */,
@@ -628,7 +628,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEDC16532788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "SathyaiOSSessionUITests" */ = {
+		BEDC16532788EB2F00EAFF97 /* Build configuration list for PBXNativeTarget "MyFirstiOSAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEDC16542788EB2F00EAFF97 /* Debug */,
@@ -640,13 +640,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BEDC162C2788EB2D00EAFF97 /* SathyaiOSSession.xcdatamodeld */ = {
+		BEDC162C2788EB2D00EAFF97 /* MyFirstiOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				BEDC162D2788EB2D00EAFF97 /* SathyaiOSSession.xcdatamodel */,
 			);
 			currentVersion = BEDC162D2788EB2D00EAFF97 /* SathyaiOSSession.xcdatamodel */;
-			path = SathyaiOSSession.xcdatamodeld;
+			path = MyFirstiOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
