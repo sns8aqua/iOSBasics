@@ -20,7 +20,11 @@ if let age = age {
 
 func addTwoNumbers(number1: Int?,number2: Int?) -> Int? {
     var sumOfTwoNumbers: Int?
-//    sumOfTwoNumbers = number1? + number2?
+    // Use if let to unwrap optional
+    // If there are two parameters make sure to use let twice
+    if let number1 = number1 , let number2 = number2 {
+        sumOfTwoNumbers = number1 + number2
+    }
     return sumOfTwoNumbers
 }
 
@@ -36,8 +40,10 @@ func countArrrayOfIntegers(numbers: Int?) -> Bool {
     var numberOfArray: [Int]
     // Allocate memory for the Array
     numberOfArray = [1,2,3,4,7]
+    // short hand for if else
     return numberOfArray.contains(numbers) ? true : false
 }
 
 
 print(countArrrayOfIntegers(numbers: 7))
+print(addTwoNumbers(number1: 10, number2: 20) ?? "")
