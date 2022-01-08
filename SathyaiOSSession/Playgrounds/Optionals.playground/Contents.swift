@@ -28,21 +28,16 @@ func addTwoNumbers(number1: Int?,number2: Int?) -> Int? {
 
 // ARRAYS
 // Find number 7 in Integer of arrays
-func countArrrayOfIntegers(numbers: Int?) -> Bool? {
-    // Declare an Array
-    var numberOfArray: [Int]?
-    var checkNumber: Bool?
-    // Allocate memory for the Array
-    checkNumber = false
-    numberOfArray = [Int]()
-    numberOfArray = [1,2,3,4,7]
-    if let numberOfArray = numberOfArray {
-        if numberOfArray.contains(7) {
-            checkNumber = true
-            return checkNumber
-        }
+func countArrrayOfIntegers(numbers: Int?) -> Bool {
+    guard let numbers = numbers else {
+        return false
     }
-    return checkNumber
+    // Declare an Array
+    var numberOfArray: [Int]
+    // Allocate memory for the Array
+    numberOfArray = [1,2,3,4,7]
+    return numberOfArray.contains(numbers) ? true : false
 }
+
 
 print(countArrrayOfIntegers(numbers: 7))
